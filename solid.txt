@@ -1,0 +1,13 @@
+S single responsibility principle states that every class or module should serve one purpose or ‘functionality’ in the code structure. Martin is quoted in wikipedia as saying ‘a class should have only one reason to change’.
+
+-easier to test, easier to fix, more efficient to write.
+
+O open/closed principle states that ‘software entities should be open for extension but closed for modification. An example of open would be the ability to add new data and elements, but closed in the sense that the code’s purpose is well defined
+
+L  Leskov substitution principal referee to inheritance and states that if s is a subtype of t than the objects of t should also work with s
+
+I interface segregation principal  no code should contain methods it does not need, and that writing clean concise code is just as important as writing code that works.
+
+D dependency inversion principal says “high level modules should not depend on low level modules, both should depend on abstractions, AND abstractions should not depend on details, details should depend on abstractions.
+
+The overarching message about the SOLID approach is the importance of organization and single responsibility in writing code. Single responsibility meaning that each class has a single purpose in order to ensure accurate testability and readability. Additionally, to enable other coders to accurately intemperate code, modify, and enhance without program failure.
